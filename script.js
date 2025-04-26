@@ -63,7 +63,7 @@ function playRound(humanChoice, computerChoice){
 }
 
 function playGame(){
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i <= 5; i++){
         playRound(getHumanChoice(),getComputerChoice(0,3));
         console.log("Human score: " + humanScore + "\nComputer score:" + computerScore);
     }
